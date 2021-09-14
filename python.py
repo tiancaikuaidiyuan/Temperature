@@ -18,13 +18,18 @@ param = {
     "stuNum": "19L0252064",#此处输入学号
     "pwd": "Lc2#991219091X",#此处输入密码
     "vcode": "",
-     "stuNum": "19L0252013",#此处输入学号
+    }
+param = { 
+    "stuNum": "19L0252013",#此处输入学号
     "pwd": "Lc2#0105083011",#此处输入密码
     "vcode": "",
-         "stuNum": "19L0252072",#此处输入学号
+    }
+parnm = {       
+    "stuNum": "19L0252072",#此处输入学号
     "pwd": "Lc2#0201180015",#此处输入密码
     "vcode": "", 
 }
+
 #
 header = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.62"

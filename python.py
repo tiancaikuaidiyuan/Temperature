@@ -14,18 +14,17 @@ url3 = f"http://xscfw.hebust.edu.cn/survey/surveySave?timestamp={timetamp}"
 
 
 # 账号信息
-
-people = [ ]
-classnums = ['19L0252064','19L0252013','19L0252072']
-passages =['Lc2#991219091X','Lc2#0105083011','Lc2#0201180015',]
-for i in range(0,len(classnums),1):
-      classnum = classnums[i]
-      passages =passages[i]
-      get_dict = {
-        'classnum': classnum, 
-        'passage': passage
-    }
-    people.append(get_dict)
+param = {
+    "stuNum": "19L0252064",#此处输入学号
+    "pwd": "Lc2#991219091X",#此处输入密码
+    "vcode": "",
+     "stuNum": "19L0252013",#此处输入学号
+    "pwd": "Lc2#0105083011",#此处输入密码
+    "vcode": "",
+         "stuNum": "19L0252072",#此处输入学号
+    "pwd": "Lc2#0201180015",#此处输入密码
+    "vcode": "", 
+}
 #
 header = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.62"
